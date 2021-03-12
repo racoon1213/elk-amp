@@ -60,7 +60,7 @@ $ docker-composer up -d
 ```
 
 ### kibana web UI
-* kibana-web(http://10.101.89.177:5601/app/home)
+* kibana-web(http://localhost:5601/app/home)
 
 * APM dashboard 실시간 refresh 방법
 ```text
