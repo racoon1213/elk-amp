@@ -1,4 +1,4 @@
-# Elastic stack (ELK) on Docker
+# Elastic stack (ELK) + APM on Docker
 
 [![Elastic Stack version](https://img.shields.io/badge/Elastic%20Stack-7.11.2-00bfb3?style=flat&logo=elastic-stack)](https://www.elastic.co/blog/category/releases)
 
@@ -9,6 +9,7 @@ Based on the official Docker images from Elastic:
 * [Elasticsearch](https://github.com/elastic/elasticsearch/tree/master/distribution/docker)
 * [Logstash](https://github.com/elastic/logstash/tree/master/docker)
 * [Kibana](https://github.com/elastic/kibana/tree/master/src/dev/build/tasks/os_packages/docker_generator)
+* [APM](https://github.com/elastic/apm)
 
 
 ## 요구사항
@@ -26,6 +27,7 @@ Based on the official Docker images from Elastic:
 * 9600: Logstash monitoring API
 * 9200: Elasticsearch HTTP
 * 9300: Elasticsearch TCP transport
+* 8200: ELK APM-Server
 * 5601: Kibana
 
 ## 구조
